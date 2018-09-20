@@ -1,4 +1,4 @@
-package mmn15.q1;
+package com.mmn15.q1;
 
 import java.util.concurrent.ConcurrentSkipListSet;
 import java.util.concurrent.CountDownLatch;
