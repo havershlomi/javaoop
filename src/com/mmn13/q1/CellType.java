@@ -1,4 +1,7 @@
 package com.mmn13.q1;
 
-public class CellType {
+public enum CellType{
+    Red,
+    Black,
+    Empty
 }
