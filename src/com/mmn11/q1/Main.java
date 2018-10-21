@@ -1,5 +1,8 @@
 package com.mmn11.q1;
-
+/*
+* Shlomi Haver
+* ID: 204096648
+* */
 import java.io.IOException;
 import java.util.Scanner;
 
