@@ -98,14 +98,13 @@ public class Polynom implements Comparable<Polynom> {
 
     @Override
     public int compareTo(Polynom o) {
+        PolynomItem myFirst = this.getPolynom().get(0);
+        PolynomItem oFirst = o.getPolynom().get(0);
 
-//TODO: compare between the 2t
-        //throw new Exception("not implemented yet");
-        if (this.getPolynom().size() == o.getPolynom().size()) {
-            for (int i = 0; i < this.getPolynom().size(); i++) {
-
-            }
-        }
+        if (myFirst.getExponent() > oFirst.getExponent() || (myFirst.getExponent() == oFirst.getExponent() && myFirst.getCoefficients() > oFirst.getCoefficients()))
+            return 1;
+        if (myFirst.getExponent() < oFirst.getExponent() || (myFirst.getExponent() == oFirst.getExponent() && myFirst.getCoefficients() < oFirst.getCoefficients()))
+            return -1;
         return 0;
     }
 }
