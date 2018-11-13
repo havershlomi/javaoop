@@ -1,9 +1,9 @@
 package com.mmn12.q2;
-
-import com.mmn12.q1.Window;
-
+/*
+ * Shlomi Haver
+ * ID: 204096648
+ * */
 import java.util.ArrayList;
-import java.util.Scanner;
 
 public class Main {
 
@@ -31,6 +31,8 @@ public class Main {
         monthlyManageAll(accounts);
         printAccounts(accounts);
 
+        //adding the same account to check equality
+        accounts.add(acc);
         System.out.println("\ncheck if 2 accounts are the same");
         isEqual(acc, accounts);
     }
@@ -85,7 +87,7 @@ public class Main {
     private static void isEqual(BankAccount account, ArrayList<BankAccount> accounts) {
         for (BankAccount acc : accounts) {
             if (account.equals(acc)) {
-                System.out.println("account is equal");
+                System.out.println("accounts are equal");
             } else {
                 System.out.println(acc.getOwnerName() + " is different from " + account.getOwnerName());
             }
