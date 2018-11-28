@@ -7,7 +7,7 @@ public class FourInARow extends JFrame {
 
     private int windowSize = 350;
     private BoardGame bGame = new BoardGame();
-
+    //game initializer
     public FourInARow() {
         Dimension dimm = new Dimension(windowSize, windowSize);
         setLayout(new BorderLayout());

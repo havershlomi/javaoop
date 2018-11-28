@@ -24,7 +24,7 @@ public class Controllers extends JPanel implements ActionListener {
             jButton.addActionListener(this);
             topPanel.add(jButton);
         }
-//set turn label
+        //set turn label
         bottomPanel.setLayout(new BorderLayout());
         turnLabel = new JLabel("Next is Red");
         bottomPanel.add(turnLabel, BorderLayout.WEST);
