@@ -26,7 +26,7 @@ public class Controllers extends JPanel {
     private JButton searchBtn;
     private int selectedIndex = -1;
 
-    //Set all the Controllers for the game
+    //Set all the Controllers for the dictionary
     public Controllers(Dictionary dictionary, DefaultListModel<Entry> listData, JList list) {
 
         this.dictionary = dictionary;

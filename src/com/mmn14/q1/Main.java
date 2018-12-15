@@ -1,5 +1,9 @@
 package com.mmn14.q1;
-
+/*
+ * Shlomi Haver
+ * MMAN 14
+ * 204096648
+ * */
 import java.io.IOException;
 import java.util.Scanner;
 import java.util.Stack;
@@ -9,7 +13,7 @@ public class Main {
 
     public static void main(String[] args) throws IOException {
         Scanner in = new Scanner(System.in);
-        System.out.println("Here you will find the answet to Q1 c, e");
+        System.out.println("Here you will find the answers for Q1: c, e");
         GenericList<String> list = new GenericList<>();
 
         String val = "";

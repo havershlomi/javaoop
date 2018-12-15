@@ -1,5 +1,9 @@
 package com.mmn14.q2;
-
+/*
+ * Shlomi Haver
+ * MMAN 14
+ * 204096648
+ * */
 import javax.swing.*;
 
 
