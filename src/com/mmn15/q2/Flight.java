@@ -14,7 +14,6 @@ public class Flight extends Thread {
         this.landingAirport = airLand;
     }
 
-
     @Override
     public void run() {
 

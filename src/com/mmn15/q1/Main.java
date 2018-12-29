@@ -1,5 +1,8 @@
 package com.mmn15.q1;
-
+/*
+MMN 15
+Shlomi Haver
+*/
 import java.util.ArrayList;
 import java.util.Scanner;
 import java.util.concurrent.BrokenBarrierException;

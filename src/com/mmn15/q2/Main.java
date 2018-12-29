@@ -1,15 +1,11 @@
 package com.mmn15.q2;
+/*
+MMN 15
+Shlomi Haver
+*/
 
-import com.mmn15.q1.PrimeryChecker;
-
-import java.nio.channels.FileLockInterruptionException;
 import java.util.ArrayList;
 import java.util.Random;
-import java.util.Scanner;
-import java.util.concurrent.BrokenBarrierException;
-import java.util.concurrent.ConcurrentSkipListSet;
-import java.util.concurrent.CountDownLatch;
-import java.util.concurrent.atomic.AtomicInteger;
 
 public class Main {
 
